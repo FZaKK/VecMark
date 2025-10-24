@@ -27,7 +27,7 @@ Our work mainly provides three forms of attacks to test the robustness of the ve
 
 The file directories for input and output can be manually specified. All test codes can be executed using the following command.
 
-```python
+```bash
 python dsa.py
 python sea.py
 python gna.py

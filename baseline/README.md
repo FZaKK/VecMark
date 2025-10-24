@@ -2,6 +2,14 @@
 
 Our work adopt a VAE-based zero-watermarking scheme as baseline. The VAE-base model characterizes the vector space via vector reconstruction training.
 
+
+## Environment
+
+`requirements.txt` is available:
+```bash
+pip install -r requirements.txt 
+```
+
 ## 🛠 Core Scripts
 
 ### 1. `train_vae.py`
@@ -15,7 +23,7 @@ Our work adopt a VAE-based zero-watermarking scheme as baseline. The VAE-base mo
   - 🔄 `--save-dir`: save path
   - 🔄 `--append-results`: appending results
 - **Instruction**: 
-  ```python
+  ```bash
   python train_vae.py --train train_path --dim_emb 768 --model_type vae --lambda_kl 0.1 --save-dir save_path --epochs 50 --append-results
   ```
 
@@ -27,7 +35,7 @@ Our work adopt a VAE-based zero-watermarking scheme as baseline. The VAE-base mo
   - 🔄 File path for vector set 1
   - 🔄 File path for vector set 2
 - **Instruction**:
-  ```python
+  ```bash
   python teat_vae.py
   ```
 
