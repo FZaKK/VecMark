@@ -32,6 +32,11 @@ Our work adopt a VAE-based zero-watermarking scheme as baseline. The VAE-base mo
   ```
 
 
+## 🔌 Notice
+
+The file paths for both test vector sets can be manually specified.
+
+
 <!--## ⚠️ Important Notice
 
 Due to equipment failure, the following scripts are currently temporarily unavailable and will be added to the repository soon:
