@@ -7,4 +7,4 @@ Vector Databases (VDBs) have played a pivotal role in modern AI systems by enabl
 
 ## ❤️Acknowledgments
 
-<!-- Our code of fine-tuning is based on the work of [BoT](https://github.com/zihao-ai/unthinking_vulnerability).-->
+Our code of VAE-based baseline is based on the work of [VAE](https://github.com/shentianxiao/text-autoencoders).
