@@ -7,4 +7,4 @@ Vector Databases (VDBs) have played a pivotal role in modern AI systems by enabl
 
 ## ❤️Acknowledgments
 
-Our code of VAE-based baseline is based on the work of [VAE](https://github.com/shentianxiao/text-autoencoders).
+Our code of VAE-based approach is based on the work of [VAE](https://github.com/shentianxiao/text-autoencoders).
