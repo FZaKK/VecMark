@@ -36,6 +36,10 @@ For verification, we use the released datasets of repo [BEIR](https://github.com
 
 ## VecMark
 
+(Framework of VecMark is shown below.)
+
+![image](https://github.com/FZaKK/VecMark/blob/main/figs/vecmark.png)
+
 ### Files Overview
 
 - `train.py` - Train a one-class diffusion model
@@ -131,6 +135,10 @@ python kstest.py --help
 
 ## SWORD
 
+(Framework of SWORD is shown below.)
+
+![image](https://github.com/FZaKK/VecMark/blob/main/figs/sword.png)
+
 ## Running SWORD
 
 To run the SWORD module, please configure the following parameters before execution:
@@ -160,6 +168,11 @@ To run the SWORD module, please configure the following parameters before execut
    ```bash
    python SWORD.py
    ```
+
+
+## Robustness
+
+We used three different forms of attacks (SEA, GNA and DSA) to test the robustness of zero-watermark verification. For detailed information, please refer to the `attacks` directory.
 
 
 ## ❤️Acknowledgments
