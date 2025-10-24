@@ -36,7 +36,7 @@ For verification, we use the released datasets of repo [BEIR](https://github.com
 
 ## VecMark
 
-(Framework of VecMark is shown below.)
+The framework of VecMark is shown below.
 
 ![image](https://github.com/FZaKK/VecMark/blob/main/figs/vecmark.png)
 
@@ -135,7 +135,7 @@ python kstest.py --help
 
 ## SWORD
 
-(Framework of SWORD is shown below.)
+The framework of SWORD is shown below.
 
 ![image](https://github.com/FZaKK/VecMark/blob/main/figs/sword.png)
 
@@ -172,9 +172,9 @@ To run the SWORD module, please configure the following parameters before execut
 
 ## Robustness
 
-We used three different forms of attacks (SEA, GNA and DSA) to test the robustness of zero-watermark verification. For detailed information, please refer to the `attacks` directory.
+We used three different forms of attacks (SEA, GNA, and DSA) to test the robustness of zero-watermark verification. For detailed information, please refer to the `attacks` directory.
 
 
 ## ❤️Acknowledgments
 
-VecMark's implementation references and builds upon the excellent work from [Diffusion-Models-pytorch](https://github.com/dome272/Diffusion-Models-pytorch). Our code of VAE-based approach is based on the work of [VAE](https://github.com/shentianxiao/text-autoencoders). We thank the authors for their valuable contributions to the community.
+VecMark's implementation references and builds upon the excellent work from [Diffusion-Models-pytorch](https://github.com/dome272/Diffusion-Models-pytorch). Our code of the VAE-based approach is based on the work of [VAE](https://github.com/shentianxiao/text-autoencoders). We thank the authors for their valuable contributions to the community.
